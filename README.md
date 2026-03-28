@@ -73,41 +73,6 @@ Entryway is an Android client designed for self-hosted media server users. Its c
 - 季度/剧集批量下载，下载前显示存储空间预估
 - 无网络时自动切换到离线内容模式
 
-## 项目架构 | Architecture
-
-```
-entryway/
-├── app/                    # Android 应用层
-│   ├── ui/
-│   │   ├── activity/       # EntryWayActivity（主入口）
-│   │   ├── screens/
-│   │   │   ├── dashboard/  # 首页、搜索、设置
-│   │   │   │   ├── home/   # Dashboard + FeatureTab + 类目翻译
-│   │   │   │   └── settings/
-│   │   │   ├── servers/    # 服务器列表、管理、切换
-│   │   │   ├── detail/     # 影片详情页
-│   │   │   └── player/     # 双引擎播放器
-│   │   │       ├── PlayerScreen       # 播放器主界面 + 手势
-│   │   │       ├── PlayerViewModel    # 播放状态、引擎管理
-│   │   │       ├── ControlsOverlay    # 控制覆盖层 UI
-│   │   │       └── MpvPlaybackEngine  # mpv 引擎封装
-│   │   ├── theme/          # Material 3 主题（支持深色/浅色）
-│   │   └── splash/         # 启动页
-│   └── util/               # 图片加载、日志
-│
-├── data/                   # 数据层
-│   ├── api/                # Jellyfin / Emby API 客户端
-│   ├── model/              # 数据模型（BaseItemDto 等）
-│   ├── repository/         # AuthRepository, MediaRepository
-│   ├── preferences/        # AppPreferences, NetworkPreferences
-│   └── network/            # 网络模块、连接检测
-│
-└── core/                   # 核心工具层
-    ├── auth/               # 认证状态管理
-    ├── player/             # PlayerState、引擎类型、编解码器偏好
-    └── detail/             # 编解码器能力检测（HDR/Dolby/Spatial）
-```
-
 ## 技术栈 | Tech Stack
 
 | 类别 | 技术 |
@@ -120,38 +85,6 @@ entryway/
 | **存储** | SharedPreferences + DataStore |
 | **构建** | Gradle 9.4, AGP, KSP |
 
-## 构建 | Build
-
-### 前置要求
-
-- Android Studio (最新稳定版)
-- JDK 17
-- Android SDK API 36
-
-### 构建步骤
-
-```bash
-# 克隆
-git clone https://github.com/JackYucongjia/Entryway_Release.git
-cd Entryway_Release
-
-# 构建 Debug APK
-./gradlew :app:assembleDebug
-
-# 输出路径
-# app/build/outputs/apk/debug/entryway-debug-*.apk
-```
-
-### 安装到设备
-
-```bash
-adb install -r app/build/outputs/apk/debug/entryway-debug-*.apk
-```
-
 ## 贡献 | Contributing
 
 欢迎提交 Issue 和 Pull Request。较大的功能开发建议先开 Issue 讨论范围。
-
-## 许可证 | License
-
-本项目基于 MIT 许可证开源。详见 [LICENSE](LICENSE)。
