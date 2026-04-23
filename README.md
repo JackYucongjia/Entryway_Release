@@ -16,6 +16,12 @@
 
 ---
 
+## 最新版本 | Latest Release
+
+- **v0.8.1**：优化首页和服务器详情页加载速度，媒体库先展示前 6 个后异步补齐完整列表，精选轮播背景图优先展示、Logo 后补
+- **APK**：[`entryway-debug-0.8.1.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.8.1/entryway-debug-0.8.1.apk)
+- **变更日志**：[`RELEASE_NOTES.md`](RELEASE_NOTES.md)
+
 ## 概述 | Overview
 
 **Entryway** 是一个面向自建媒体服务器用户的 Android 客户端，核心设计理念是 **多服务器聚合**——在一个统一的界面中管理和浏览你所有的 Jellyfin / Emby 服务器。
