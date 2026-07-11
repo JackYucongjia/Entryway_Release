@@ -18,8 +18,10 @@
 
 ## 最新版本 | Latest Release
 
-- **v0.8.1**：优化首页和服务器详情页加载速度，媒体库先展示前 6 个后异步补齐完整列表，精选轮播背景图优先展示、Logo 后补
-- **APK**：[`entryway-debug-0.8.1.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.8.1/entryway-debug-0.8.1.apk)
+- **手机版 v0.14.0**：新增完整 DandanPlay 弹幕匹配、播放、设置和 LRU 缓存体系，并修复 MPV 字幕字体与切换卡顿问题
+- **TV 版 v0.13.2**：本次无 TV 功能变更，继续提供现有版本
+- **手机版 APK**：[`entryway-debug-0.14.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.14.0/entryway-debug-0.14.0.apk)
+- **TV 版 APK**：[`Entryway-tv-debug-0.13.2.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.14.0/Entryway-tv-debug-0.13.2.apk)
 - **变更日志**：[`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 
 ## 概述 | Overview
