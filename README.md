@@ -18,10 +18,10 @@
 
 ## 最新版本 | Latest Release
 
-- **手机版 v0.15.0**：实验性支持未加密 DVD / Blu-ray ISO，新增默认播放内核选择、自动 ExoPlayer → mpv 容错与直链播放优化
-- **TV 版 v0.14.0**：新增完整 DandanPlay 弹幕与 MPV 字幕链路，并同步 ISO、播放性能和跨端视觉增强
-- **手机版 APK**：[`entryway-debug-0.15.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.15.0/entryway-debug-0.15.0.apk)
-- **TV 版 APK**：[`Entryway-tv-debug-0.14.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.15.0/Entryway-tv-debug-0.14.0.apk)
+- **手机版 v0.16.0**：首页完整快照、子媒体库 30 分钟缓存、局部增量更新和返回位置恢复
+- **TV 版 v0.15.0**：同步首页与子媒体库缓存策略、遥控器焦点修复及故障服务器恢复能力
+- **手机版 APK**：[`entryway-debug-0.16.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.16.0/entryway-debug-0.16.0.apk)
+- **TV 版 APK**：[`Entryway-tv-debug-0.15.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.16.0/Entryway-tv-debug-0.15.0.apk)
 - **变更日志**：[`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 
 ## 概述 | Overview
