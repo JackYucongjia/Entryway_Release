@@ -18,10 +18,12 @@
 
 ## 最新版本 | Latest Release
 
-- **手机版 v0.16.0**：首页完整快照、子媒体库 30 分钟缓存、局部增量更新和返回位置恢复
-- **TV 版 v0.15.0**：同步首页与子媒体库缓存策略、遥控器焦点修复及故障服务器恢复能力
-- **手机版 APK**：[`entryway-debug-0.16.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.16.0/entryway-debug-0.16.0.apk)
-- **TV 版 APK**：[`Entryway-tv-debug-0.15.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.16.0/Entryway-tv-debug-0.15.0.apk)
+- **手机版 v0.17.0**：完整多弹幕 API 管理、窄屏布局修复与按服务隔离的匹配和缓存
+- **TV 版 v0.16.0**：移植多弹幕 API、重排遥控器弹窗并修复弹幕穿透菜单与焦点问题
+- **Windows v0.14.0**：提供 Windows x64 安装器、硬件解码策略与字幕/资源作用域修复
+- **手机版 APK**：[`entryway-debug-0.17.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.17.0/entryway-debug-0.17.0.apk)
+- **TV 版 APK**：[`Entryway-tv-debug-0.16.0.apk`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.17.0/Entryway-tv-debug-0.16.0.apk)
+- **Windows x64**：[`Entryway_0.14.0+33_Windows_x64_Setup.exe`](https://github.com/JackYucongjia/Entryway_Release/releases/download/v0.17.0/Entryway_0.14.0%2B33_Windows_x64_Setup.exe)
 - **变更日志**：[`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 
 ## 概述 | Overview
