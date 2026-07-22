@@ -1,16 +1,16 @@
 # Entryway Mobile 0.18.0 / TV 0.16.1 / Windows 0.15.0+34
 
-本次批次为 Android 手机、Android TV 与 Windows 三端同批发布。各端应用版本不同，全局标签 `v0.18.0` 仅为本批次 ID。
+本次批次为 Android 手机、Android TV 与 Windows 三端同批发布。各端应用版本不同，全局标签 `v0.18.0` 仅为本批次 ID。Android 为 1.0 前的 debug 构建。
 
 ## 版本与校验
 
 | 平台 | 应用版本 | 构建号 | 文件名 | SHA-256 |
 | --- | --- | --- | --- | --- |
-| Android Mobile | 0.18.0 | 37 | entryway-release-0.18.0.apk | `e3c1813d37aebee4612db0436e22a8894236e0d04dcb9e787a9b8f11b39e07fd` |
-| Android TV | 0.16.1 | 36 | Entryway-tv-release-0.16.1.apk | `8bb5d9a2787755469af3cc66839c32be318035d353f22a66620798026ba6953c` |
+| Android Mobile | 0.18.0 | 37 | entryway-debug-0.18.0.apk | `0157c126c61d79767952ed995414eb5d8a1239bb2013a2406996468356c7b820` |
+| Android TV | 0.16.1 | 36 | Entryway-tv-debug-0.16.1.apk | `09d2a29d65f37cfc62c85b4fb0a7ce9a8386fac9712fb4653b0cec2f7ad69e9f` |
 | Windows x64 | 0.15.0 | 34 | Entryway_0.15.0+34_Windows_x64_Setup.exe | `e9e45536fe981d117f8f261fe82a4e1fbd5b01a1ff515dfdc110253b8992f21b` |
 
-> Windows 安装包为**未签名**产物，首次运行可能触发 SmartScreen 提示，需手动确认。
+> Android 为 debug 构建（1.0 前约定），Windows 安装包未签名；首次运行可能触发系统安全提示，需手动确认。
 
 ## Android Mobile 0.18.0
 
