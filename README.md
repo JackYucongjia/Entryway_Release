@@ -17,15 +17,17 @@
 
 ## 最新版本 | Latest Release
 
-**全局标签 `v0.19.0`**（各端应用版本独立）
+**全局标签 `v0.19.1`**（各端应用版本独立）
 
 | 平台 | 应用版本 | 构建号 | 下载 |
 | --- | --- | --- | --- |
-| Android 手机版 | 0.19.0 | 38 | [`entryway-release-0.19.0.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.19.0/entryway-release-0.19.0.apk) |
-| Android TV 版 | 0.17.0 | 37 | [`Entryway-tv-release-0.17.0.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.19.0/Entryway-tv-release-0.17.0.apk) |
-| Windows x64 | 0.17.0 | 36 | [`Entryway_0.17.0+36_Windows_x64_Setup.exe`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.19.0/Entryway_0.17.0+36_Windows_x64_Setup.exe) |
+| Android 手机版 | 0.19.1 | 39 | [`entryway-debug-0.19.1.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.19.1/entryway-debug-0.19.1.apk) |
+| Android TV 版 | 0.17.0 | 37 | [`Entryway-tv-release-0.17.0.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.19.1/Entryway-tv-release-0.17.0.apk) |
+| Windows x64 | 0.17.0 | 36 | [`Entryway_0.17.0+36_Windows_x64_Setup.exe`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.19.1/Entryway_0.17.0+36_Windows_x64_Setup.exe) |
 
-> TV 版沿用 1.0 前的调试证书签名约定，Windows 安装包未签名；首次运行可能触发系统安全提示，需手动确认。
+> Android 手机版与 TV 版沿用 1.0 前的调试证书签名约定，Windows 安装包未签名；首次运行可能触发系统安全提示，需手动确认。
+>
+> ⚠️ v0.19.0 的手机安装包误用了正式发布证书，无法覆盖安装。0.18.x 及更早版本可直接覆盖安装 0.19.1；若已安装 v0.19.0，需先卸载再安装。
 
 - **变更日志**：[`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 - **全部版本**：[Gitea Releases](https://gitea.yamby.cn/yusheng/Entryway_Release/releases) ｜ [GitHub Releases](https://github.com/JackYucongjia/Entryway_Release/releases)
