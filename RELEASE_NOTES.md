@@ -6,8 +6,8 @@
 
 | 平台 | 应用版本 | 构建号 | 安装包 | SHA-256 |
 | --- | --- | ---: | --- | --- |
-| Android 手机版 | 0.20.0 | 40 | `entryway-release-0.20.0.apk` | `75fa9e64c7a3dedcfba5c4d2d32c1f348f67dec56cfc78163d10ba063b7a30b6` |
-| Android TV 版 | 0.18.0 | 38 | `Entryway-tv-release-0.18.0.apk` | `97e6cd547d935a3383653ab35fc3e7d79ad004fcc7a6a105150972a769b4b327` |
+| Android 手机版 | 0.20.0 | 40 | `entryway-debug-0.20.0.apk` | `e20dcb43fe2c4e880215fbdc97713c37db864b163d6f55ec2cd900e95e338829` |
+| Android TV 版 | 0.18.0 | 38 | `Entryway-tv-debug-0.18.0.apk` | `0f51f2030f558d950262ed143551a91bb30e8f4a877ce0f9eb4632beb0cbca86` |
 | Windows x64 | 0.18.0 | 37 | `Entryway_0.18.0+37_Windows_x64_Setup.exe` | `b744a11a186350461dc6b4143df1fd5ee833bcc0ae1df6bff4339e1824333477` |
 
 ## 跨端改进
@@ -21,7 +21,7 @@
 - 播放器控制面板重新布局，辅助按钮缩小并减少误触，进度条加入弹幕热力图。
 - 支持多弹幕 API 并行请求、来源切换、Google Cast、DLNA 和局域网中继投屏。
 - 新增“倍速播放传递”设置，切换下一集时可沿用当前倍速。
-- 使用 Android Debug 证书签名；`v0.19.0` 正式证书包仍需先卸载。
+- 使用 Android Debug 变体和证书签名；`v0.19.0` 正式证书包仍需先卸载。
 
 ## Android TV 版 0.18.0
 
@@ -40,4 +40,4 @@
 
 - Android 手机和 TV：Android 8.1（API 27）及以上。
 - Windows：Windows 10 或更高版本，x64。
-- Android 安装包使用项目 1.0 前的 Debug 证书签名，Windows 安装包未签名。
+- Android 安装包使用项目 1.0 前的 Debug 变体和证书签名，Windows 安装包未签名。
