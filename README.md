@@ -17,17 +17,19 @@
 
 ## 最新版本 | Latest Release
 
-**全局标签 `v0.23.0`**（各端应用版本独立；本批次为 Debug 持续发布）
+**全局标签 `v0.24.0`**（各端应用版本独立；手机版为 Preview，TV 与 Windows 为 Debug）
 
 | 平台 | 应用版本 | 构建号 | 下载 |
 | --- | --- | --- | --- |
-| Android 手机版 | 0.23.0 | 44 | [`entryway-debug-0.23.0.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.23.0/entryway-debug-0.23.0.apk) |
-| Android TV 版 | 0.18.1 | 39 | [`Entryway-tv-debug-0.18.1.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.23.0/Entryway-tv-debug-0.18.1.apk) |
-| Windows x64 | 0.18.0 | 37 | [`Entryway_0.18.0+37_Windows_x64_Setup.exe`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.23.0/Entryway_0.18.0+37_Windows_x64_Setup.exe) |
+| Android 手机版 | 0.24.0 | 45 | [`entryway-preview-0.24.0.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.24.0/entryway-preview-0.24.0.apk) |
+| Android TV 版 | 0.18.1 | 39 | [`Entryway-tv-debug-0.18.1.apk`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.24.0/Entryway-tv-debug-0.18.1.apk) |
+| Windows x64 | 0.18.0 | 37 | [`Entryway_0.18.0+37_Windows_x64_Setup.exe`](https://gitea.yamby.cn/yusheng/Entryway_Release/releases/download/v0.24.0/Entryway_0.18.0+37_Windows_x64_Setup.exe) |
 
-> Android 手机版与 TV 版沿用 1.0 前的调试证书签名约定，Windows 安装包未签名；首次运行可能触发系统安全提示，需手动确认。
+> Android 手机版从 0.24.0 起使用 Preview 持续发布构建：启用 R8、AOT 与 Baseline Profile，但仍沿用 1.0 前公开包的调试证书，可直接覆盖安装；TV 继续使用 Debug 构建，Windows 安装包未签名。Preview/Debug 均不是正式 Release 构建。
 >
 > ⚠️ v0.19.0 的手机安装包误用了正式发布证书，无法覆盖安装。0.18.x 及更早版本可直接覆盖安装 0.20.0；若已安装 v0.19.0，需先卸载再安装。
+>
+> Windows 端正在重构，预计 **2026 年 8 月 17 日**正式发布新版。
 
 - **变更日志**：[`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 - **全部版本**：[Gitea Releases](https://gitea.yamby.cn/yusheng/Entryway_Release/releases) ｜ [GitHub Releases](https://github.com/JackYucongjia/Entryway_Release/releases)
